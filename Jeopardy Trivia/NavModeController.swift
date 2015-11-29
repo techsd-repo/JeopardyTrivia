@@ -14,7 +14,7 @@ class NavModeController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navBar.translucent = false
-        
+        navBar.barTintColor = UIColor(red: 59.0 / 255.0, green: 113.0 / 255.0, blue: 252.0 / 255.0, alpha: 1.0)
         // Do any additional setup after loading the view.
     }
 
