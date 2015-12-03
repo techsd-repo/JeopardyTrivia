@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+import Parse
+import Bolts
+import ParseTwitterUtils
+import ParseUI
 class NavModeController: UINavigationController {
 
     @IBOutlet weak var navBar: UINavigationBar!
@@ -16,6 +19,11 @@ class NavModeController: UINavigationController {
         navBar.translucent = false
         navBar.barTintColor = UIColor(red: 59.0 / 255.0, green: 113.0 / 255.0, blue: 252.0 / 255.0, alpha: 1.0)
         // Do any additional setup after loading the view.
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            print("Object has been saved.")
+        }
     }
 
     override func didReceiveMemoryWarning() {
