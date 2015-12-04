@@ -8,7 +8,6 @@
 
 import UIKit
 import Parse
-
 class SUMainViewController: UIViewController {
     
     override func viewDidLoad() {
