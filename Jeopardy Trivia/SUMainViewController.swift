@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Parse
 
 class SUMainViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,12 @@ class SUMainViewController: UIViewController {
     }
     
 
+
+    @IBAction func parseSignUp(sender: AnyObject) {
+    }
+
+    @IBAction func parseSignIn(sender: AnyObject) {
+    }
     /*
     // MARK: - Navigation
 
