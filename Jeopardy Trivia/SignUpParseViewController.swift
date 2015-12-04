@@ -29,10 +29,10 @@ class SignUpParseViewController: UIViewController {
    
     @IBAction func submitAction(sender: AnyObject) {
         
-        var username = userField.text
-        var password = passField.text
-        var email = emailField.text
-        var finalEmail = email?.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        let username = userField.text
+        let password = passField.text
+        let email = emailField.text
+        let finalEmail = email?.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
         
         //Username Check
         if username?.characters.count < 4{
@@ -87,10 +87,29 @@ class SignUpParseViewController: UIViewController {
             
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
                 
+                //Error
                 spinner.stopAnimating()
                 if ((error) != nil) {
+                     let alert = UIAlertController(title: "Error:", message: "\(error)", preferredStyle: .Alert)
+                     let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
+                        
+                     })
+                    alert.addAction(okAction)
                     
+                    self.presentViewController(alert, animated: true, completion: { () -> Void in
+                        
+                    })
+                } else {
+                    //Successful
+                    //FIXME: Add segue to Sign in
+                    
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                        //add segue
+                    })
                 }
+                
+                
+               
                 
             })
         }
