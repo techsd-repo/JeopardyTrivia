@@ -1,15 +1,15 @@
 //
-//  SUMainViewController.swift
+//  SignUpParseViewController.swift
 //  Jeopardy Trivia
 //
-//  Created by Alex Folster on 12/3/15.
+//  Created by Alex Folster on 12/4/15.
 //  Copyright © 2015 Alex Folster. All rights reserved.
 //
 
 import UIKit
-import Parse
-class SUMainViewController: UIViewController {
-    
+
+class SignUpParseViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +22,6 @@ class SUMainViewController: UIViewController {
     }
     
 
-
-    @IBAction func parseSignUp(sender: AnyObject) {
-        performSegueWithIdentifier("signup", sender: nil)
-        
-    }
-
-    @IBAction func parseSignIn(sender: AnyObject) {
-    }
     /*
     // MARK: - Navigation
 
