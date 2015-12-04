@@ -139,11 +139,19 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitAction:" destination="JWG-QY-sU2" eventType="touchUpInside" id="5TX-EL-cTz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="Xtv-p6-Gd9" id="85Y-BK-eHI"/>
+                        <outlet property="passField" destination="vkR-rY-pWX" id="aWf-q3-hF9"/>
+                        <outlet property="userField" destination="FFU-RR-qbQ" id="hhF-OC-16p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXs-jR-lHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
