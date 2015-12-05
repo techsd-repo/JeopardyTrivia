@@ -197,6 +197,9 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="logInAction:" destination="AKm-p6-Q3e" eventType="touchUpInside" id="3nQ-ud-o5F"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add buttons down here for google, etc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndq-cP-L8v">
                                 <rect key="frame" x="130" y="516" width="295" height="21"/>
@@ -222,6 +225,10 @@
                         <animations/>
                         <color key="backgroundColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="passField" destination="zp6-Zb-vp7" id="JFR-6w-s9q"/>
+                        <outlet property="userField" destination="A7l-xV-cYG" id="KQy-M8-8wN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkN-XO-zS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
