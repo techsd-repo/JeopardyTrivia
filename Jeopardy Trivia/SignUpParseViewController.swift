@@ -26,6 +26,12 @@ class SignUpParseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.emailField.resignFirstResponder()
+        self.passField.resignFirstResponder()
+        self.userField.resignFirstResponder()
+    }
+    
     //Parse sign-up
     @IBAction func submitAction(sender: AnyObject) {
         
