@@ -21,6 +21,7 @@
 		FACB22701C11DCCA000FB475 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB226A1C11DCCA000FB475 /* ParseTwitterUtils.framework */; };
 		FACB22711C11DCCA000FB475 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACB226B1C11DCCA000FB475 /* ParseUI.framework */; };
 		FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */; };
+		FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22741C13973D000FB475 /* SignInParseViewController.swift */; };
 		FAD3F20B1C10BE640028A9BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */; };
 		FAD3F20D1C10BE6D0028A9BE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20C1C10BE6D0028A9BE /* CFNetwork.framework */; };
 		FAD3F20F1C10BE750028A9BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20E1C10BE750028A9BE /* CoreGraphics.framework */; };
@@ -73,6 +74,7 @@
 		FACB226A1C11DCCA000FB475 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		FACB226B1C11DCCA000FB475 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpParseViewController.swift; sourceTree = "<group>"; };
+		FACB22741C13973D000FB475 /* SignInParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInParseViewController.swift; sourceTree = "<group>"; };
 		FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FAD3F20C1C10BE6D0028A9BE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FAD3F20E1C10BE750028A9BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 				FA88CDC01C023D3100128183 /* AppDelegate.swift */,
 				FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */,
 				FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */,
+				FACB22741C13973D000FB475 /* SignInParseViewController.swift */,
 				FA88CDC41C023D3100128183 /* Main.storyboard */,
 				FA88CDC71C023D3100128183 /* Assets.xcassets */,
 				FA88CDC91C023D3100128183 /* LaunchScreen.storyboard */,
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */,
 				FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */,
 				FA7E24331C10DBCC00786AC5 /* SUMainViewController.swift in Sources */,
 				FA88CDC11C023D3100128183 /* AppDelegate.swift in Sources */,
