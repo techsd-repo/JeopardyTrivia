@@ -26,7 +26,7 @@ class SignUpParseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
+    //Parse sign-up
     @IBAction func submitAction(sender: AnyObject) {
         
         let username = userField.text
@@ -84,13 +84,14 @@ class SignUpParseViewController: UIViewController {
             newUser.username = username
             newUser.password = password
             newUser.email = finalEmail
+            newUser["skill"] = "Noob"
             
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
                 
                 //Error
                 spinner.stopAnimating()
                 if ((error) != nil) {
-                     let alert = UIAlertController(title: "Error:", message: "\(error)", preferredStyle: .Alert)
+                     let alert = UIAlertController(title: "Error:", message: "\(error) Try changing the username.", preferredStyle: .Alert)
                      let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
                         
                      })
@@ -105,6 +106,10 @@ class SignUpParseViewController: UIViewController {
                     
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
                         //add segue
+                        //let vc: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
+                        //self.presentViewController(vc, animated: true, completion: { () -> Void in
+                            
+                        //})
                     })
                 }
                 
