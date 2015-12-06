@@ -109,7 +109,7 @@ class SignUpParseViewController: UIViewController {
                 } else {
                     //Successful
                     //FIXME: Add segue to Sign in
-                    
+                    spinner.stopAnimating()
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
                         //add segue
                         //let vc: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
