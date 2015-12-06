@@ -70,6 +70,7 @@ class SignInParseViewController: UIViewController {
             PFUser.logInWithUsernameInBackground(userf!, password: passf!) { (user, error) -> Void in
                 if user != nil {
                     activityIndicator.stopAnimating()
+                   
                     //Yay! Logged in successfully
                     
                     //FIXME: Add segue to Main screen
