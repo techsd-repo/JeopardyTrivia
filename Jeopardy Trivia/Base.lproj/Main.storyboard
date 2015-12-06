@@ -105,6 +105,9 @@
                     <navigationItem key="navigationItem" id="o7r-1w-F8U">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="xTD-RB-o6U"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="xTD-RB-o6U" id="W2b-0K-LFX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSr-U5-1zf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
