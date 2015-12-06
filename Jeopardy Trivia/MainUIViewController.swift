@@ -14,12 +14,10 @@ class MainUIViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if self.revealViewController() != nil {
-            menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
-        // Do any additional setup after loading the view.
+                // Do any additional setup after loading the view.
+        
+        menuButton.target = self.revealViewController()
+        menuButton.action = Selector("revealToggle:")
     }
 
     override func didReceiveMemoryWarning() {
