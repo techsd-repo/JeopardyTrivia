@@ -33,6 +33,7 @@
 		FAF29CA01C13B4C600C54292 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29C9A1C13B4C600C54292 /* ParseTwitterUtils.framework */; };
 		FAF29CA11C13B4C600C54292 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29C9B1C13B4C600C54292 /* ParseUI.framework */; };
 		FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA51C14797300C54292 /* SWRevealViewController.m */; };
+		FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA71C147E6600C54292 /* MainUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		FAF29CA31C14797200C54292 /* Jeopardy Trivia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy Trivia-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAF29CA41C14797300C54292 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		FAF29CA51C14797300C54292 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FAF29CA71C147E6600C54292 /* MainUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */,
 				FACB22741C13973D000FB475 /* SignInParseViewController.swift */,
 				FA88CDC41C023D3100128183 /* Main.storyboard */,
+				FAF29CA71C147E6600C54292 /* MainUIViewController.swift */,
 				FA88CDC71C023D3100128183 /* Assets.xcassets */,
 				FA88CDC91C023D3100128183 /* LaunchScreen.storyboard */,
 				FA88CDCC1C023D3100128183 /* Info.plist */,
@@ -347,6 +350,7 @@
 				FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */,
 				FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */,
 				FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */,
+				FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */,
 				FA7E24331C10DBCC00786AC5 /* SUMainViewController.swift in Sources */,
 				FA88CDC11C023D3100128183 /* AppDelegate.swift in Sources */,
 			);
