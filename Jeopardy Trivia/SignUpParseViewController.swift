@@ -90,9 +90,14 @@ class SignUpParseViewController: UIViewController {
             newUser.username = username
             newUser.password = password
             newUser.email = finalEmail
-            newUser["skill"] = "Noob"
+            newUser["skill"] = "Rookie"
+            newUser["xp"] = "0"
+            newUser["diifMatch"] = "0"
+            newUser["searching"] = "0"
+            
             
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
+                
                 
                 //Error
                 spinner.stopAnimating()
