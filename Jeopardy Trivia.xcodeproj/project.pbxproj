@@ -16,6 +16,12 @@
 		FA88CDE11C023D3100128183 /* Jeopardy_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88CDE01C023D3100128183 /* Jeopardy_TriviaUITests.swift */; };
 		FA94BC841C14A9560061E2DC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC831C14A9560061E2DC /* Accounts.framework */; };
 		FA94BC861C14A95D0061E2DC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC851C14A95D0061E2DC /* Social.framework */; };
+		FA94BC8D1C1C5F670061E2DC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC871C1C5F670061E2DC /* Bolts.framework */; };
+		FA94BC8E1C1C5F670061E2DC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC881C1C5F670061E2DC /* Parse.framework */; };
+		FA94BC8F1C1C5F670061E2DC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC891C1C5F670061E2DC /* ParseFacebookUtils.framework */; };
+		FA94BC901C1C5F670061E2DC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */; };
+		FA94BC911C1C5F670061E2DC /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */; };
+		FA94BC921C1C5F670061E2DC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */; };
 		FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */; };
 		FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22741C13973D000FB475 /* SignInParseViewController.swift */; };
 		FAD3F20B1C10BE640028A9BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */; };
@@ -30,12 +36,6 @@
 		FAD3F2291C10BF240028A9BE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2281C10BF240028A9BE /* libsqlite3.tbd */; };
 		FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA51C14797300C54292 /* SWRevealViewController.m */; };
 		FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA71C147E6600C54292 /* MainUIViewController.swift */; };
-		FAF29CAF1C148ADA00C54292 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CA91C148ADA00C54292 /* Bolts.framework */; };
-		FAF29CB01C148ADA00C54292 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CAA1C148ADA00C54292 /* Parse.framework */; };
-		FAF29CB11C148ADA00C54292 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CAB1C148ADA00C54292 /* ParseFacebookUtils.framework */; };
-		FAF29CB21C148ADA00C54292 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CAC1C148ADA00C54292 /* ParseFacebookUtilsV4.framework */; };
-		FAF29CB31C148ADA00C54292 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CAD1C148ADA00C54292 /* ParseTwitterUtils.framework */; };
-		FAF29CB41C148ADA00C54292 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF29CAE1C148ADA00C54292 /* ParseUI.framework */; };
 		FAF29CB61C149DE600C54292 /* BackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CB51C149DE600C54292 /* BackTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +72,12 @@
 		FA88CDE21C023D3100128183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA94BC831C14A9560061E2DC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		FA94BC851C14A95D0061E2DC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FA94BC871C1C5F670061E2DC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FA94BC881C1C5F670061E2DC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA94BC891C1C5F670061E2DC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpParseViewController.swift; sourceTree = "<group>"; };
 		FACB22741C13973D000FB475 /* SignInParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInParseViewController.swift; sourceTree = "<group>"; };
 		FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -88,12 +94,6 @@
 		FAF29CA41C14797300C54292 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		FAF29CA51C14797300C54292 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		FAF29CA71C147E6600C54292 /* MainUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUIViewController.swift; sourceTree = "<group>"; };
-		FAF29CA91C148ADA00C54292 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		FAF29CAA1C148ADA00C54292 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		FAF29CAB1C148ADA00C54292 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		FAF29CAC1C148ADA00C54292 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		FAF29CAD1C148ADA00C54292 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
-		FAF29CAE1C148ADA00C54292 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		FAF29CB51C149DE600C54292 /* BackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,24 +102,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA94BC921C1C5F670061E2DC /* ParseUI.framework in Frameworks */,
 				FA94BC861C14A95D0061E2DC /* Social.framework in Frameworks */,
 				FA94BC841C14A9560061E2DC /* Accounts.framework in Frameworks */,
 				FAD3F2291C10BF240028A9BE /* libsqlite3.tbd in Frameworks */,
 				FAD3F2271C10BF180028A9BE /* libz.tbd in Frameworks */,
-				FAF29CB21C148ADA00C54292 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				FAD3F2251C10BF0F0028A9BE /* SystemConfiguration.framework in Frameworks */,
-				FAF29CB31C148ADA00C54292 /* ParseTwitterUtils.framework in Frameworks */,
 				FAD3F2231C10BF050028A9BE /* StoreKit.framework in Frameworks */,
-				FAF29CB41C148ADA00C54292 /* ParseUI.framework in Frameworks */,
 				FAD3F2211C10BEFE0028A9BE /* Security.framework in Frameworks */,
+				FA94BC8D1C1C5F670061E2DC /* Bolts.framework in Frameworks */,
+				FA94BC8F1C1C5F670061E2DC /* ParseFacebookUtils.framework in Frameworks */,
 				FAD3F21F1C10BEF60028A9BE /* QuartzCore.framework in Frameworks */,
+				FA94BC901C1C5F670061E2DC /* ParseFacebookUtilsV4.framework in Frameworks */,
 				FAD3F21D1C10BEED0028A9BE /* CoreLocation.framework in Frameworks */,
+				FA94BC8E1C1C5F670061E2DC /* Parse.framework in Frameworks */,
 				FAD3F20F1C10BE750028A9BE /* CoreGraphics.framework in Frameworks */,
-				FAF29CAF1C148ADA00C54292 /* Bolts.framework in Frameworks */,
+				FA94BC911C1C5F670061E2DC /* ParseTwitterUtils.framework in Frameworks */,
 				FAD3F20D1C10BE6D0028A9BE /* CFNetwork.framework in Frameworks */,
-				FAF29CB01C148ADA00C54292 /* Parse.framework in Frameworks */,
 				FAD3F20B1C10BE640028A9BE /* AudioToolbox.framework in Frameworks */,
-				FAF29CB11C148ADA00C54292 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +165,12 @@
 		FA88CDBF1C023D3100128183 /* Jeopardy Trivia */ = {
 			isa = PBXGroup;
 			children = (
+				FA94BC871C1C5F670061E2DC /* Bolts.framework */,
+				FA94BC881C1C5F670061E2DC /* Parse.framework */,
+				FA94BC891C1C5F670061E2DC /* ParseFacebookUtils.framework */,
+				FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */,
+				FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */,
+				FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */,
 				FAF29CA21C14792800C54292 /* SWRevealViewController */,
 				FAD3F2281C10BF240028A9BE /* libsqlite3.tbd */,
 				FAD3F2261C10BF180028A9BE /* libz.tbd */,
@@ -214,12 +220,6 @@
 				FAF29CA41C14797300C54292 /* SWRevealViewController.h */,
 				FAF29CA51C14797300C54292 /* SWRevealViewController.m */,
 				FAF29CA31C14797200C54292 /* Jeopardy Trivia-Bridging-Header.h */,
-				FAF29CA91C148ADA00C54292 /* Bolts.framework */,
-				FAF29CAA1C148ADA00C54292 /* Parse.framework */,
-				FAF29CAB1C148ADA00C54292 /* ParseFacebookUtils.framework */,
-				FAF29CAC1C148ADA00C54292 /* ParseFacebookUtilsV4.framework */,
-				FAF29CAD1C148ADA00C54292 /* ParseTwitterUtils.framework */,
-				FAF29CAE1C148ADA00C54292 /* ParseUI.framework */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -518,6 +518,8 @@
 					"Trivia/parse-library-1",
 					"$(PROJECT_DIR)/Jeopardy",
 					Trivia,
+					"$(PROJECT_DIR)/Jeopardy",
+					Trivia,
 				);
 				INFOPLIST_FILE = "Jeopardy Trivia/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -544,6 +546,8 @@
 					Trivia,
 					"$(PROJECT_DIR)/Jeopardy",
 					"Trivia/parse-library-1",
+					"$(PROJECT_DIR)/Jeopardy",
+					Trivia,
 					"$(PROJECT_DIR)/Jeopardy",
 					Trivia,
 				);
