@@ -68,7 +68,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.91283210497648859" green="0.9360832368028652" blue="0.95346554487179491" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VGV-at-1NB" firstAttribute="centerY" secondItem="ltl-kU-8N4" secondAttribute="centerY" id="Fat-XV-xx6"/>
                             <constraint firstItem="VGV-at-1NB" firstAttribute="leading" secondItem="ltl-kU-8N4" secondAttribute="leading" constant="193" id="IrA-Mp-6Kf"/>
@@ -99,8 +99,45 @@
                     <view key="view" contentMode="scaleToFill" id="W7R-Qu-tHm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Players Online:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LQ-6U-g3Y">
+                                <rect key="frame" x="337" y="72" width="114" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ur-EW-9hU">
+                                <rect key="frame" x="459" y="72" width="126" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Players Searching:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSH-ID-mLc">
+                                <rect key="frame" x="310" y="101" width="141" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5u-cA-yJw">
+                                <rect key="frame" x="459" y="101" width="11" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLAYER INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3E-E8-6G1">
+                                <rect key="frame" x="223" y="258" width="185" height="84"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.92015681530805238" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="o7r-1w-F8U">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="xTD-RB-o6U"/>
@@ -246,7 +283,7 @@
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.912832105" green="0.93608323680000005" blue="0.95346554490000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vkR-rY-pWX" firstAttribute="leading" secondItem="L61-YS-jE9" secondAttribute="leading" id="22K-xv-epP"/>
                             <constraint firstItem="L61-YS-jE9" firstAttribute="top" secondItem="FFU-RR-qbQ" secondAttribute="bottom" constant="44" id="4ZW-R5-8HG"/>
