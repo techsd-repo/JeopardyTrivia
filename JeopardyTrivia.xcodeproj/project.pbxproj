@@ -12,8 +12,6 @@
 		FA88CDC61C023D3100128183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88CDC41C023D3100128183 /* Main.storyboard */; };
 		FA88CDC81C023D3100128183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA88CDC71C023D3100128183 /* Assets.xcassets */; };
 		FA88CDCB1C023D3100128183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88CDC91C023D3100128183 /* LaunchScreen.storyboard */; };
-		FA88CDD61C023D3100128183 /* Jeopardy_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88CDD51C023D3100128183 /* Jeopardy_TriviaTests.swift */; };
-		FA88CDE11C023D3100128183 /* Jeopardy_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88CDE01C023D3100128183 /* Jeopardy_TriviaUITests.swift */; };
 		FA94BC841C14A9560061E2DC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC831C14A9560061E2DC /* Accounts.framework */; };
 		FA94BC861C14A95D0061E2DC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC851C14A95D0061E2DC /* Social.framework */; };
 		FABE63C21C30726000CDB308 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABE63BC1C30726000CDB308 /* Bolts.framework */; };
@@ -66,11 +64,7 @@
 		FA88CDCA1C023D3100128183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA88CDCC1C023D3100128183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA88CDD11C023D3100128183 /* JeopardyTrivia.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyTrivia.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA88CDD51C023D3100128183 /* Jeopardy_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeopardy_TriviaTests.swift; sourceTree = "<group>"; };
-		FA88CDD71C023D3100128183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA88CDDC1C023D3100128183 /* JeopardyTrivia.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyTrivia.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA88CDE01C023D3100128183 /* Jeopardy_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeopardy_TriviaUITests.swift; sourceTree = "<group>"; };
-		FA88CDE21C023D3100128183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA94BC831C14A9560061E2DC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		FA94BC851C14A95D0061E2DC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FABE63BC1C30726000CDB308 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -154,8 +148,6 @@
 				FA94BC851C14A95D0061E2DC /* Social.framework */,
 				FA94BC831C14A9560061E2DC /* Accounts.framework */,
 				FA88CDBF1C023D3100128183 /* Jeopardy Trivia */,
-				FA88CDD41C023D3100128183 /* Jeopardy TriviaTests */,
-				FA88CDDF1C023D3100128183 /* Jeopardy TriviaUITests */,
 				FA88CDBE1C023D3100128183 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,24 +187,6 @@
 				FAEBD3EE1C306AA200FC9A88 /* TRStripe1x.png */,
 			);
 			path = "Jeopardy Trivia";
-			sourceTree = "<group>";
-		};
-		FA88CDD41C023D3100128183 /* Jeopardy TriviaTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA88CDD51C023D3100128183 /* Jeopardy_TriviaTests.swift */,
-				FA88CDD71C023D3100128183 /* Info.plist */,
-			);
-			path = "Jeopardy TriviaTests";
-			sourceTree = "<group>";
-		};
-		FA88CDDF1C023D3100128183 /* Jeopardy TriviaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA88CDE01C023D3100128183 /* Jeopardy_TriviaUITests.swift */,
-				FA88CDE21C023D3100128183 /* Info.plist */,
-			);
-			path = "Jeopardy TriviaUITests";
 			sourceTree = "<group>";
 		};
 		FAEBD3EB1C305C8600FC9A88 /* Sign In/Sign Up */ = {
@@ -384,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA88CDD61C023D3100128183 /* Jeopardy_TriviaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA88CDE11C023D3100128183 /* Jeopardy_TriviaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
