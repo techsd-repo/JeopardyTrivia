@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Jeopardy_Trivia
+@testable import JeopardyTrivia
 
 class Jeopardy_TriviaTests: XCTestCase {
     
