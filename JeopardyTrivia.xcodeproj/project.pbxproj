@@ -22,7 +22,6 @@
 		FA94BC901C1C5F670061E2DC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */; };
 		FA94BC911C1C5F670061E2DC /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */; };
 		FA94BC921C1C5F670061E2DC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */; };
-		FA94BC941C1C66B00061E2DC /* GMSyncSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */; };
 		FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */; };
 		FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22741C13973D000FB475 /* SignInParseViewController.swift */; };
 		FAD3F20B1C10BE640028A9BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */; };
@@ -36,8 +35,6 @@
 		FAD3F2271C10BF180028A9BE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2261C10BF180028A9BE /* libz.tbd */; };
 		FAD3F2291C10BF240028A9BE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2281C10BF240028A9BE /* libsqlite3.tbd */; };
 		FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA51C14797300C54292 /* SWRevealViewController.m */; };
-		FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA71C147E6600C54292 /* MainUIViewController.swift */; };
-		FAF29CB61C149DE600C54292 /* BackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CB51C149DE600C54292 /* BackTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +76,6 @@
 		FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMSyncSelectViewController.swift; sourceTree = "<group>"; };
 		FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpParseViewController.swift; sourceTree = "<group>"; };
 		FACB22741C13973D000FB475 /* SignInParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInParseViewController.swift; sourceTree = "<group>"; };
 		FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -95,8 +91,6 @@
 		FAF29CA31C14797200C54292 /* Jeopardy Trivia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy Trivia-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAF29CA41C14797300C54292 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		FAF29CA51C14797300C54292 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		FAF29CA71C147E6600C54292 /* MainUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUIViewController.swift; sourceTree = "<group>"; };
-		FAF29CB51C149DE600C54292 /* BackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,9 +183,6 @@
 				FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */,
 				FACB22741C13973D000FB475 /* SignInParseViewController.swift */,
 				FA88CDC41C023D3100128183 /* Main.storyboard */,
-				FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */,
-				FAF29CB51C149DE600C54292 /* BackTableViewController.swift */,
-				FAF29CA71C147E6600C54292 /* MainUIViewController.swift */,
 				FA88CDC71C023D3100128183 /* Assets.xcassets */,
 				FA88CDC91C023D3100128183 /* LaunchScreen.storyboard */,
 				FA88CDCC1C023D3100128183 /* Info.plist */,
@@ -364,11 +355,8 @@
 				FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */,
 				FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */,
 				FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */,
-				FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */,
 				FA7E24331C10DBCC00786AC5 /* SUMainViewController.swift in Sources */,
 				FA88CDC11C023D3100128183 /* AppDelegate.swift in Sources */,
-				FA94BC941C1C66B00061E2DC /* GMSyncSelectViewController.swift in Sources */,
-				FAF29CB61C149DE600C54292 /* BackTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
