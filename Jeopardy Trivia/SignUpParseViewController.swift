@@ -13,6 +13,9 @@ class SignUpParseViewController: UIViewController {
     @IBOutlet weak var userField: UITextField!
     @IBOutlet weak var passField: UITextField!
     @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var dateMonth: UITextField!
+    @IBOutlet weak var dateDay: UITextField!
+    @IBOutlet weak var dateYear: UITextField!
     
     
     override func viewDidLoad() {
@@ -30,6 +33,9 @@ class SignUpParseViewController: UIViewController {
         self.emailField.resignFirstResponder()
         self.passField.resignFirstResponder()
         self.userField.resignFirstResponder()
+        self.dateMonth.resignFirstResponder()
+        self.dateDay.resignFirstResponder()
+        self.dateYear.resignFirstResponder()
     }
     
     //Parse sign-up
@@ -80,6 +86,7 @@ class SignUpParseViewController: UIViewController {
                 
             })
             
+            
         } else {
             //Everything is vaild
             let spinner: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRectMake(0,0,150,150)) as UIActivityIndicatorView
@@ -92,8 +99,8 @@ class SignUpParseViewController: UIViewController {
             newUser.email = finalEmail
             newUser["skill"] = "Rookie"
             newUser["xp"] = "0"
-            newUser["diifMatch"] = "0"
-            newUser["searching"] = "0"
+            newUser["DOB"] = "\(dateMonth.text)/\(dateDay.text)/\(dateYear.text)"
+            newUser["searching"] = false
             newUser["record"] = "0-0"
             
             
@@ -103,7 +110,7 @@ class SignUpParseViewController: UIViewController {
                 //Error
                 spinner.stopAnimating()
                 if ((error) != nil) {
-                     let alert = UIAlertController(title: "Error:", message: "\(error!) Try changing the username.", preferredStyle: .Alert)
+                     let alert = UIAlertController(title: "Error:", message: "Error: Try changing the username(It might be taken).", preferredStyle: .Alert)
                      let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
                         
                      })
