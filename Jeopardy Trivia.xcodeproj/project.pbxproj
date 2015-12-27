@@ -22,6 +22,7 @@
 		FA94BC901C1C5F670061E2DC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */; };
 		FA94BC911C1C5F670061E2DC /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */; };
 		FA94BC921C1C5F670061E2DC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */; };
+		FA94BC941C1C66B00061E2DC /* GMSyncSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */; };
 		FACB22731C11DDC5000FB475 /* SignUpParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */; };
 		FACB22751C13973D000FB475 /* SignInParseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB22741C13973D000FB475 /* SignInParseViewController.swift */; };
 		FAD3F20B1C10BE640028A9BE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */; };
@@ -78,6 +79,7 @@
 		FA94BC8A1C1C5F670061E2DC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		FA94BC8B1C1C5F670061E2DC /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		FA94BC8C1C1C5F670061E2DC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMSyncSelectViewController.swift; sourceTree = "<group>"; };
 		FACB22721C11DDC5000FB475 /* SignUpParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpParseViewController.swift; sourceTree = "<group>"; };
 		FACB22741C13973D000FB475 /* SignInParseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInParseViewController.swift; sourceTree = "<group>"; };
 		FAD3F20A1C10BE640028A9BE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -187,6 +189,7 @@
 				FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */,
 				FACB22741C13973D000FB475 /* SignInParseViewController.swift */,
 				FA88CDC41C023D3100128183 /* Main.storyboard */,
+				FA94BC931C1C66B00061E2DC /* GMSyncSelectViewController.swift */,
 				FAF29CB51C149DE600C54292 /* BackTableViewController.swift */,
 				FAF29CA71C147E6600C54292 /* MainUIViewController.swift */,
 				FA88CDC71C023D3100128183 /* Assets.xcassets */,
@@ -364,6 +367,7 @@
 				FAF29CA81C147E6600C54292 /* MainUIViewController.swift in Sources */,
 				FA7E24331C10DBCC00786AC5 /* SUMainViewController.swift in Sources */,
 				FA88CDC11C023D3100128183 /* AppDelegate.swift in Sources */,
+				FA94BC941C1C66B00061E2DC /* GMSyncSelectViewController.swift in Sources */,
 				FAF29CB61C149DE600C54292 /* BackTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

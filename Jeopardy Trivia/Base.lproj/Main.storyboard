@@ -562,10 +562,10 @@
             </objects>
             <point key="canvasLocation" x="1176" y="829"/>
         </scene>
-        <!--View Controller-->
+        <!--Sync Select View Controller-->
         <scene sceneID="tsT-EI-nne">
             <objects>
-                <viewController id="SI5-Br-xJS" sceneMemberID="viewController">
+                <viewController id="SI5-Br-xJS" customClass="GMSyncSelectViewController" customModule="Jeopardy_Trivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dbo-MJ-geU"/>
                         <viewControllerLayoutGuide type="bottom" id="2l0-NB-Ybe"/>

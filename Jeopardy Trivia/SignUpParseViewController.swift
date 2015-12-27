@@ -94,6 +94,7 @@ class SignUpParseViewController: UIViewController {
             newUser["xp"] = "0"
             newUser["diifMatch"] = "0"
             newUser["searching"] = "0"
+            newUser["record"] = "0-0"
             
             
             newUser.signUpInBackgroundWithBlock({ (succeed, error) -> Void in
@@ -102,7 +103,7 @@ class SignUpParseViewController: UIViewController {
                 //Error
                 spinner.stopAnimating()
                 if ((error) != nil) {
-                     let alert = UIAlertController(title: "Error:", message: "\(error) Try changing the username.", preferredStyle: .Alert)
+                     let alert = UIAlertController(title: "Error:", message: "\(error!) Try changing the username.", preferredStyle: .Alert)
                      let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
                         
                      })
