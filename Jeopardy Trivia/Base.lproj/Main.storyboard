@@ -327,6 +327,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TRStripe1x.png" translatesAutoresizingMaskIntoConstraints="NO" id="AwC-Jd-WSr">
                                 <rect key="frame" x="500" y="0.0" width="100" height="100"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stripe1x.png" translatesAutoresizingMaskIntoConstraints="NO" id="mEN-It-n8E">
+                                <rect key="frame" x="171" y="74" width="88" height="113"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stripe1x.png" translatesAutoresizingMaskIntoConstraints="NO" id="iU0-8i-VJO">
+                                <rect key="frame" x="311" y="74" width="88" height="113"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.96070155201342278" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -449,6 +455,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Stripe1x.png" width="75" height="75"/>
         <image name="TLStripe1x.png" width="150" height="150"/>
         <image name="TRStripe1x.png" width="150" height="150"/>
     </resources>
