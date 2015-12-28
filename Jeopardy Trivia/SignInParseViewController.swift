@@ -73,11 +73,12 @@ class SignInParseViewController: UIViewController {
                    
                     //Yay! Logged in successfully
                     
-                    //FIXME: Add segue to Main screen
+                    self.performSegueWithIdentifier("signtomain", sender: nil)
+                    
                 } else {
                     //Error.. hmm...
                     activityIndicator.stopAnimating()
-                    let alert = UIAlertController(title: "Error:", message: "\(error) Try changing your username or password", preferredStyle: .Alert)
+                    let alert = UIAlertController(title: "Error:", message: "Error: Try changing your username or password. They may be incorrect.", preferredStyle: .Alert)
                     let okAction = UIAlertAction(title: "Ok", style: .Default, handler: { (action) -> Void in
                         
                     })

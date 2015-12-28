@@ -29,6 +29,7 @@ class SUMainViewController: UIViewController {
     }
 
     @IBAction func parseSignIn(sender: AnyObject) {
+        performSegueWithIdentifier("signin", sender: nil)
     }
     /*
     // MARK: - Navigation

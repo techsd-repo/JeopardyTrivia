@@ -77,11 +77,12 @@
                     </view>
                     <connections>
                         <segue destination="JWG-QY-sU2" kind="showDetail" identifier="signup" id="YLP-8U-Jgx"/>
+                        <segue destination="AKm-p6-Q3e" kind="show" identifier="signin" id="6tc-VV-ZRO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Xq-fD-u5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1238" y="139"/>
+            <point key="canvasLocation" x="1108" y="43"/>
         </scene>
         <!--Sign Up Parse View Controller-->
         <scene sceneID="PR8-Ed-x8L">
@@ -259,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXs-jR-lHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1987" y="149"/>
+            <point key="canvasLocation" x="1909" y="-310"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nbM-bd-G9W">
@@ -339,7 +340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FXU-Rq-BJu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="804"/>
+            <point key="canvasLocation" x="1866" y="666"/>
         </scene>
         <!--Sign In Parse View Controller-->
         <scene sceneID="Fpc-RL-XPn">
@@ -447,11 +448,12 @@
                     <connections>
                         <outlet property="passField" destination="zp6-Zb-vp7" id="JFR-6w-s9q"/>
                         <outlet property="userField" destination="A7l-xV-cYG" id="KQy-M8-8wN"/>
+                        <segue destination="bHc-Qa-FHa" kind="show" identifier="signtomain" id="fQf-V1-Mce"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkN-XO-zS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2620" y="149"/>
+            <point key="canvasLocation" x="2654" y="124"/>
         </scene>
     </scenes>
     <resources>
@@ -459,4 +461,7 @@
         <image name="TLStripe1x.png" width="150" height="150"/>
         <image name="TRStripe1x.png" width="150" height="150"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="6tc-VV-ZRO"/>
+    </inferredMetricsTieBreakers>
 </document>
