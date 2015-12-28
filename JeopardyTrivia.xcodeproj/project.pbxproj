@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA7B98FE1C31898B0022340E /* Stripe1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7B98FD1C31898B0022340E /* Stripe1x.png */; };
+		FA7B99001C31972D0022340E /* StripH1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7B98FF1C31972D0022340E /* StripH1x.png */; };
 		FA7E24331C10DBCC00786AC5 /* SUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */; };
 		FA88CDC11C023D3100128183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88CDC01C023D3100128183 /* AppDelegate.swift */; };
 		FA88CDC61C023D3100128183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA88CDC41C023D3100128183 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		FA7B98FD1C31898B0022340E /* Stripe1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stripe1x.png; sourceTree = "<group>"; };
+		FA7B98FF1C31972D0022340E /* StripH1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StripH1x.png; sourceTree = "<group>"; };
 		FA7E24321C10DBCC00786AC5 /* SUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SUMainViewController.swift; sourceTree = "<group>"; };
 		FA88CDBD1C023D3100128183 /* JeopardyTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeopardyTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA88CDC01C023D3100128183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				FAEBD3ED1C306AA200FC9A88 /* TLStripe1x.png */,
 				FAEBD3EE1C306AA200FC9A88 /* TRStripe1x.png */,
 				FA7B98FD1C31898B0022340E /* Stripe1x.png */,
+				FA7B98FF1C31972D0022340E /* StripH1x.png */,
 			);
 			path = "Jeopardy Trivia";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				FA88CDCB1C023D3100128183 /* LaunchScreen.storyboard in Resources */,
 				FA7B98FE1C31898B0022340E /* Stripe1x.png in Resources */,
+				FA7B99001C31972D0022340E /* StripH1x.png in Resources */,
 				FAEBD3EF1C306AA200FC9A88 /* findmatch1x.png in Resources */,
 				FAEBD3F01C306AA200FC9A88 /* TLStripe1x.png in Resources */,
 				FA88CDC81C023D3100128183 /* Assets.xcassets in Resources */,
