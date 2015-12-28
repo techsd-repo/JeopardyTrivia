@@ -36,6 +36,10 @@ class InterfaceMainController: UIViewController {
         if user?.valueForKey("loses") != nil {
             totalLoses?.text = "\(String(user?.valueForKey("loses")))"
         }
+        
+        if user?.valueForKey("xp1") != nil && user?.valueForKey("xp2") != nil {
+            xpLevelScore?.text = "\(String(user?.valueForKey("xp1")))/\(String(user?.valueForKey("xp2")))"
+        }
 
         // Do any additional setup after loading the view.
     }
