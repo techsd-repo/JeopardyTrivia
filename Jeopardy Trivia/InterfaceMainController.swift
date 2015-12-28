@@ -16,13 +16,26 @@ class InterfaceMainController: UIViewController {
     @IBOutlet weak var totalLoses: UILabel?
     @IBOutlet weak var xpLevel: UILabel?
     @IBOutlet weak var xpLevelScore: UILabel?
+    @IBOutlet weak var userName: UILabel?
+    @IBOutlet weak var userSkill: UILabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Get data from Parse --> labels
-        var query = PFQuery(className: "User")
-        query.whereKey(<#T##key: String##String#>, equalTo: AnyObject)
+      var user = PFUser.currentUser()
+        
+        if user?.valueForKey("games") != nil {
+            totalGames?.text = "\(String(user?.valueForKey("games")))"
+        }
+        
+        if user?.valueForKey("wins") != nil {
+            totalGames?.text = "\(String(user?.valueForKey("wins")))"
+        }
+    
+        if user?.valueForKey("loses") != nil {
+            totalLoses?.text = "\(String(user?.valueForKey("loses")))"
+        }
 
         // Do any additional setup after loading the view.
     }

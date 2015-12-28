@@ -98,10 +98,12 @@ class SignUpParseViewController: UIViewController {
             newUser.password = password
             newUser.email = finalEmail
             newUser["skill"] = "Rookie"
-            newUser["xp1"] = "0"
+            newUser["xp1"] = 0
             newUser["DOB"] = "\(dateMonth.text)/\(dateDay.text)/\(dateYear.text)"
             newUser["searching"] = false
-            newUser["record"] = "0-0"
+            newUser["games"] = 0
+            newUser["wins"] = 0
+            newUser["loses"] = 0
             newUser["xp2"] = 1000
             newUser["level"] = 1
             

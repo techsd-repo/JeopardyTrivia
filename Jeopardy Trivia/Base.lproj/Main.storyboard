@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2dl-rM-IbQ">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -281,10 +282,10 @@
             </objects>
             <point key="canvasLocation" x="1204" y="891"/>
         </scene>
-        <!--Main Interface Controller-->
+        <!--Interface Main Controller-->
         <scene sceneID="nbM-bd-G9W">
             <objects>
-                <viewController id="bHc-Qa-FHa" customClass="MainInterfaceController" customModule="JeopardyTrivia" sceneMemberID="viewController">
+                <viewController id="bHc-Qa-FHa" customClass="InterfaceMainController" customModule="JeopardyTrivia" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xjZ-g1-ncz"/>
                         <viewControllerLayoutGuide type="bottom" id="Ykn-IZ-2oA"/>
@@ -433,7 +434,7 @@
                                     <color key="titleColor" white="0.23440121644295303" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="triviaSetupWithParse:" destination="bHc-Qa-FHa" eventType="touchUpInside" id="pAm-KQ-u0k"/>
+                                    <action selector="triviaWithParse:" destination="bHc-Qa-FHa" eventType="touchUpInside" id="h7d-Sr-L8C"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StripH1x.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wbp-SD-GLE">
@@ -452,7 +453,7 @@
                                     <color key="titleColor" white="0.2344012164" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="triviaSetupWithGameCenter:" destination="bHc-Qa-FHa" eventType="touchUpInside" id="rLN-mr-A4S"/>
+                                    <action selector="triviaWithGameCenter:" destination="bHc-Qa-FHa" eventType="touchUpInside" id="hhb-AH-WzV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -524,15 +525,14 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="progressXP" destination="6jD-Qg-X8d" id="gFG-RB-vXK"/>
-                        <outlet property="totalGames" destination="dpv-pd-jG6" id="5DO-ac-Jc7"/>
-                        <outlet property="totalLoses" destination="PT8-JP-5Qz" id="4Ue-ea-qeT"/>
-                        <outlet property="totalWins" destination="cMX-KX-dTZ" id="BUR-8C-LnN"/>
-                        <outlet property="userClass" destination="IjO-WN-c6h" id="FfZ-o8-JSg"/>
-                        <outlet property="userName" destination="82c-ju-Q57" id="fJu-lz-ryE"/>
-                        <outlet property="xpLevel" destination="DAx-UC-dOo" id="DIl-1Q-EhN"/>
-                        <outlet property="xpLevelScore" destination="kkc-iX-yEe" id="Xjn-T3-jG8"/>
-                        <outlet property="xpProgress" destination="6jD-Qg-X8d" id="1ue-H1-Irt"/>
+                        <outlet property="progressXP" destination="6jD-Qg-X8d" id="zAd-VN-p4O"/>
+                        <outlet property="totalGames" destination="dpv-pd-jG6" id="3gg-3h-OvZ"/>
+                        <outlet property="totalLoses" destination="PT8-JP-5Qz" id="Ib2-zI-aje"/>
+                        <outlet property="totalWins" destination="cMX-KX-dTZ" id="uFo-u4-vDg"/>
+                        <outlet property="userName" destination="82c-ju-Q57" id="j74-Pj-pO7"/>
+                        <outlet property="userSkill" destination="IjO-WN-c6h" id="X4h-6f-w4n"/>
+                        <outlet property="xpLevel" destination="DAx-UC-dOo" id="KyP-hq-0y1"/>
+                        <outlet property="xpLevelScore" destination="kkc-iX-yEe" id="lsn-ji-lzY"/>
                         <segue destination="3dz-PR-rmC" kind="show" identifier="main_trivia_match" id="KP2-dp-sGC"/>
                         <segue destination="Pij-R9-bQ8" kind="show" identifier="main_trivia_gc" id="k1Y-z8-9d7"/>
                     </connections>
