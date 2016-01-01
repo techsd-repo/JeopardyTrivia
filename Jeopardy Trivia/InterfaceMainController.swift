@@ -39,6 +39,9 @@ class InterfaceMainController: UIViewController {
         
         if user?.valueForKey("xp1") != nil && user?.valueForKey("xp2") != nil {
             xpLevelScore?.text = "\(String(user?.valueForKey("xp1")))/\(String(user?.valueForKey("xp2")))"
+            
+            //FIXME: Xp level system
+           
         }
 
         // Do any additional setup after loading the view.
@@ -49,15 +52,6 @@ class InterfaceMainController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func triviaWithParse(sender: AnyObject) {
-        
-    }
-    
-    
-    @IBAction func triviaWithGameCenter(sender: AnyObject) {
-        
-    }
     /*
     // MARK: - Navigation
 

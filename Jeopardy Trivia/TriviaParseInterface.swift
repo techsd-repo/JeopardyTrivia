@@ -10,6 +10,16 @@ import UIKit
 
 class TriviaParseInterface: UIViewController {
 
+    @IBOutlet weak var easyButton: UIButton?
+    @IBOutlet weak var hardButton: UIButton?
+    @IBOutlet weak var geniusButton: UIButton?
+    @IBOutlet weak var shortButton: UIButton?
+    @IBOutlet weak var mediuButton: UIButton?
+    @IBOutlet weak var ultraButton: UIButton?
+    @IBOutlet weak var chooseCatButton: UIButton?
+    @IBOutlet weak var randomButton: UIButton?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

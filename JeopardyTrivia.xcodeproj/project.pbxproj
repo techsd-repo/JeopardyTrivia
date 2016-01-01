@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA7B98FE1C31898B0022340E /* Stripe1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7B98FD1C31898B0022340E /* Stripe1x.png */; };
-		FA7B99001C31972D0022340E /* StripH1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7B98FF1C31972D0022340E /* StripH1x.png */; };
+		FA331BCD1C32E95800D535B7 /* easyDiffButton1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BCA1C32E95800D535B7 /* easyDiffButton1x.png */; };
+		FA331BCE1C32E95800D535B7 /* geniusDiffButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BCB1C32E95800D535B7 /* geniusDiffButton.png */; };
+		FA331BCF1C32E95800D535B7 /* hardDiffButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BCC1C32E95800D535B7 /* hardDiffButton.png */; };
+		FA331BD11C330FDA00D535B7 /* topBarMidnight.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BD01C330FDA00D535B7 /* topBarMidnight.png */; };
+		FA331BD31C33450D00D535B7 /* middleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BD21C33450D00D535B7 /* middleBar.png */; };
+		FA331BD51C3346CB00D535B7 /* xpBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BD41C3346CB00D535B7 /* xpBar.png */; };
+		FA331BD71C33483800D535B7 /* selectModeBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BD61C33483800D535B7 /* selectModeBar.png */; };
+		FA331BD91C34298800D535B7 /* whiteStripe.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BD81C34298800D535B7 /* whiteStripe.png */; };
+		FA331BDB1C342F0D00D535B7 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = FA331BDA1C342F0D00D535B7 /* button.png */; };
 		FA7B99031C31A3B30022340E /* InterfaceMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B99021C31A3B30022340E /* InterfaceMainController.swift */; };
 		FA7B99051C31A4870022340E /* TriviaParseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B99041C31A4870022340E /* TriviaParseInterface.swift */; };
 		FA7B99071C31A4A50022340E /* TriviaGameCenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B99061C31A4A50022340E /* TriviaGameCenterInterface.swift */; };
@@ -37,9 +44,6 @@
 		FAD3F2251C10BF0F0028A9BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2241C10BF0F0028A9BE /* SystemConfiguration.framework */; };
 		FAD3F2271C10BF180028A9BE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2261C10BF180028A9BE /* libz.tbd */; };
 		FAD3F2291C10BF240028A9BE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD3F2281C10BF240028A9BE /* libsqlite3.tbd */; };
-		FAEBD3EF1C306AA200FC9A88 /* findmatch1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD3EC1C306AA200FC9A88 /* findmatch1x.png */; };
-		FAEBD3F01C306AA200FC9A88 /* TLStripe1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD3ED1C306AA200FC9A88 /* TLStripe1x.png */; };
-		FAEBD3F11C306AA200FC9A88 /* TRStripe1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEBD3EE1C306AA200FC9A88 /* TRStripe1x.png */; };
 		FAF29CA61C14797300C54292 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF29CA51C14797300C54292 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA7B98FD1C31898B0022340E /* Stripe1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stripe1x.png; sourceTree = "<group>"; };
-		FA7B98FF1C31972D0022340E /* StripH1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StripH1x.png; sourceTree = "<group>"; };
+		FA331BCA1C32E95800D535B7 /* easyDiffButton1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easyDiffButton1x.png; sourceTree = "<group>"; };
+		FA331BCB1C32E95800D535B7 /* geniusDiffButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geniusDiffButton.png; sourceTree = "<group>"; };
+		FA331BCC1C32E95800D535B7 /* hardDiffButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardDiffButton.png; sourceTree = "<group>"; };
+		FA331BD01C330FDA00D535B7 /* topBarMidnight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBarMidnight.png; sourceTree = "<group>"; };
+		FA331BD21C33450D00D535B7 /* middleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = middleBar.png; sourceTree = "<group>"; };
+		FA331BD41C3346CB00D535B7 /* xpBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xpBar.png; sourceTree = "<group>"; };
+		FA331BD61C33483800D535B7 /* selectModeBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectModeBar.png; sourceTree = "<group>"; };
+		FA331BD81C34298800D535B7 /* whiteStripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteStripe.png; sourceTree = "<group>"; };
+		FA331BDA1C342F0D00D535B7 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		FA7B99021C31A3B30022340E /* InterfaceMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceMainController.swift; sourceTree = "<group>"; };
 		FA7B99041C31A4870022340E /* TriviaParseInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaParseInterface.swift; sourceTree = "<group>"; };
 		FA7B99061C31A4A50022340E /* TriviaGameCenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaGameCenterInterface.swift; sourceTree = "<group>"; };
@@ -95,9 +106,6 @@
 		FAD3F2241C10BF0F0028A9BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FAD3F2261C10BF180028A9BE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FAD3F2281C10BF240028A9BE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		FAEBD3EC1C306AA200FC9A88 /* findmatch1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findmatch1x.png; sourceTree = "<group>"; };
-		FAEBD3ED1C306AA200FC9A88 /* TLStripe1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TLStripe1x.png; sourceTree = "<group>"; };
-		FAEBD3EE1C306AA200FC9A88 /* TRStripe1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TRStripe1x.png; sourceTree = "<group>"; };
 		FAF29CA31C14797200C54292 /* Jeopardy Trivia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jeopardy Trivia-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAF29CA41C14797300C54292 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		FAF29CA51C14797300C54292 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -203,11 +211,15 @@
 				FA88CDC71C023D3100128183 /* Assets.xcassets */,
 				FA88CDC91C023D3100128183 /* LaunchScreen.storyboard */,
 				FA88CDCC1C023D3100128183 /* Info.plist */,
-				FAEBD3EC1C306AA200FC9A88 /* findmatch1x.png */,
-				FAEBD3ED1C306AA200FC9A88 /* TLStripe1x.png */,
-				FAEBD3EE1C306AA200FC9A88 /* TRStripe1x.png */,
-				FA7B98FD1C31898B0022340E /* Stripe1x.png */,
-				FA7B98FF1C31972D0022340E /* StripH1x.png */,
+				FA331BDA1C342F0D00D535B7 /* button.png */,
+				FA331BD81C34298800D535B7 /* whiteStripe.png */,
+				FA331BCA1C32E95800D535B7 /* easyDiffButton1x.png */,
+				FA331BCB1C32E95800D535B7 /* geniusDiffButton.png */,
+				FA331BCC1C32E95800D535B7 /* hardDiffButton.png */,
+				FA331BD01C330FDA00D535B7 /* topBarMidnight.png */,
+				FA331BD21C33450D00D535B7 /* middleBar.png */,
+				FA331BD41C3346CB00D535B7 /* xpBar.png */,
+				FA331BD61C33483800D535B7 /* selectModeBar.png */,
 			);
 			path = "Jeopardy Trivia";
 			sourceTree = "<group>";
@@ -339,14 +351,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA331BCF1C32E95800D535B7 /* hardDiffButton.png in Resources */,
 				FA88CDCB1C023D3100128183 /* LaunchScreen.storyboard in Resources */,
-				FA7B98FE1C31898B0022340E /* Stripe1x.png in Resources */,
-				FA7B99001C31972D0022340E /* StripH1x.png in Resources */,
-				FAEBD3EF1C306AA200FC9A88 /* findmatch1x.png in Resources */,
-				FAEBD3F01C306AA200FC9A88 /* TLStripe1x.png in Resources */,
+				FA331BCE1C32E95800D535B7 /* geniusDiffButton.png in Resources */,
+				FA331BD51C3346CB00D535B7 /* xpBar.png in Resources */,
+				FA331BD31C33450D00D535B7 /* middleBar.png in Resources */,
+				FA331BDB1C342F0D00D535B7 /* button.png in Resources */,
+				FA331BCD1C32E95800D535B7 /* easyDiffButton1x.png in Resources */,
+				FA331BD91C34298800D535B7 /* whiteStripe.png in Resources */,
+				FA331BD71C33483800D535B7 /* selectModeBar.png in Resources */,
 				FA88CDC81C023D3100128183 /* Assets.xcassets in Resources */,
+				FA331BD11C330FDA00D535B7 /* topBarMidnight.png in Resources */,
 				FA88CDC61C023D3100128183 /* Main.storyboard in Resources */,
-				FAEBD3F11C306AA200FC9A88 /* TRStripe1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
